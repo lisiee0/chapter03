@@ -19,7 +19,13 @@ public class PointApp {
 		System.out.println(p01.hashCode());
 		System.out.println(p02.hashCode());
 		System.out.println("====================================");
-
+		
+		System.out.println("#toString()");
+		System.out.println(p00.toString());
+		System.out.println(p01.toString());
+		System.out.println(p02.toString());
+		System.out.println("====================================");
+		
 	}
 
 }
