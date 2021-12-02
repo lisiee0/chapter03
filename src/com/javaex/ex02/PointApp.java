@@ -8,6 +8,8 @@ public class PointApp {
 		Point p01= new Point(2,3);
 		Point p02= new Point(5,9);
 		
+		Point p03= p02;
+		
 		System.out.println("#getClass()");
 		System.out.println(p00.getClass());
 		System.out.println(p01.getClass());
@@ -26,6 +28,12 @@ public class PointApp {
 		System.out.println(p02.toString());
 		System.out.println("====================================");
 		
+		System.out.println("#equals()");
+		System.out.println(p00.equals(p02));
+		System.out.println(p00.equals(p01));
+		System.out.println(p00==p01);
+		System.out.println(p02==p03);
+		System.out.println("====================================");
 	}
 
 }
