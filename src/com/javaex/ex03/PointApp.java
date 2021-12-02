@@ -15,9 +15,7 @@ public class PointApp {
 		System.out.println("================================");
 		
 		System.out.println(a.equals(b));
-		
-		
+		// true 
 		
 	}
-
 }
