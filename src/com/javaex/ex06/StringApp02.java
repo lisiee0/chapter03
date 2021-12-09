@@ -10,15 +10,20 @@ public class StringApp02 {
 		System.out.println(a.concat(b));
 		System.out.println(b.concat(a));
 		
+		System.out.println("====================================");
+		
 		a= a.concat(b);
 		System.out.println(a);
 		
+		System.out.println("====================================");
 		a= a.trim();
 		System.out.println("--"+a+"--");
 		
+		System.out.println("====================================");
 		a= a.replace("ab", "12");
 		System.out.println(a);
 		
+		System.out.println("====================================");
 		String[] sArray= a.split(",");
 		
 		for(int i= 0; i<sArray.length; i++) {
